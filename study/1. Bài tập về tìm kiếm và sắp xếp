@@ -1,0 +1,101 @@
+1. Bài tập về tìm kiếm và sắp xếp
+Bài 1: Tìm kiếm nhị phân
+Mô tả: Cho một mảng đã sắp xếp theo thứ tự tăng dần, hãy viết thuật toán tìm kiếm nhị phân để tìm phần tử x trong mảng.
+Input: Một mảng đã sắp xếp và một số x.
+Output: Chỉ số (index) của x trong mảng, hoặc -1 nếu không tìm thấy
+
+
+Bài 2: Sắp xếp nổi bọt (Bubble Sort)
+Mô tả: Hãy cài đặt thuật toán sắp xếp nổi bọt để sắp xếp một mảng số nguyên.
+Input: Một mảng số nguyên chưa sắp xếp.
+Output: Mảng đã được sắp xếp theo thứ tự tăng dần.
+
+
+
+Bài 3: Sắp xếp chọn (Selection Sort)
+Mô tả: Cài đặt thuật toán sắp xếp chọn (Selection Sort).
+Input: Một mảng số nguyên chưa sắp xếp.
+Output: Mảng đã sắp xếp theo thứ tự tăng dần.
+
+
+
+Bài 4: Sắp xếp nhanh (Quick Sort)
+Mô tả: Cài đặt thuật toán sắp xếp nhanh (Quick Sort) để sắp xếp một mảng số nguyên.
+Input: Một mảng số nguyên chưa sắp xếp.
+Output: Mảng đã được sắp xếp.
+
+2. Bài tập về đệ quy
+Bài 5: Tính giai thừa
+Mô tả: Viết hàm đệ quy để tính giai thừa của một số nguyên dương n.
+Input: Một số nguyên dương n.
+Output: Giai thừa của n.
+
+
+Bài 6: Dãy Fibonacci
+Mô tả: Viết hàm đệ quy để tính số thứ n trong dãy Fibonacci.
+Input: Một số nguyên n (n >= 0).
+Output: Số Fibonacci thứ n.
+
+Bài 7: Đếm số lần xuất hiện của một số trong mảng
+Mô tả: Viết hàm đệ quy để đếm số lần xuất hiện của một số x trong mảng.
+Input: Một mảng số nguyên và một số nguyên x.
+Output: Số lần xuất hiện của x trong mảng.
+
+
+3. Bài tập về cấu trúc dữ liệu
+
+Bài 8: Duyệt cây nhị phân
+Mô tả: Hãy cài đặt ba phương pháp duyệt cây nhị phân:
+Duyệt theo thứ tự trước (Pre-order).
+Duyệt theo thứ tự giữa (In-order).
+Duyệt theo thứ tự sau (Post-order).
+Input: Một cây nhị phân.
+Output: Kết quả duyệt theo từng phương pháp.
+
+
+Bài 9: Hàng đợi (Queue) bằng mảng vòng
+Mô tả: Hãy cài đặt hàng đợi sử dụng mảng vòng (Circular Array).
+Input: Các thao tác thêm (enqueue) và lấy (dequeue) phần tử.
+Output: Trạng thái hàng đợi sau mỗi thao tác.
+
+
+Bài 10: Đảo ngược chuỗi bằng ngăn xếp (Stack)
+Mô tả: Viết chương trình đảo ngược chuỗi sử dụng cấu trúc dữ liệu ngăn xếp (Stack).
+Input: Một chuỗi bất kỳ.
+Output: Chuỗi đảo ngược.
+
+
+4. Bài tập về thuật toán tham lam (Greedy Algorithm)
+
+
+Bài 11: Vấn đề cái túi (Knapsack Problem) - Phiên bản tham lam
+Mô tả: Cho một túi có sức chứa W và một tập hợp các vật phẩm, mỗi vật phẩm có trọng lượng và giá trị. Hãy sử dụng thuật toán tham lam để chọn các vật phẩm sao cho tổng giá trị là lớn nhất mà không vượt quá sức chứa của túi.
+Input: Danh sách các vật phẩm với trọng lượng và giá trị, sức chứa W.
+Output: Tập hợp các vật phẩm được chọn và tổng giá trị.
+
+
+Bài 12: Vấn đề đoạn thẳng phủ (Interval Scheduling)
+Mô tả: Bạn được cho n đoạn thẳng (hoặc công việc), mỗi đoạn thẳng có thời gian bắt đầu và kết thúc. Hãy chọn số lượng đoạn thẳng tối đa mà không bị trùng nhau.
+Input: Danh sách các đoạn thẳng với thời gian bắt đầu và kết thúc.
+Output: Số lượng đoạn thẳng tối đa có thể chọn.
+
+
+5. Bài tập về quy hoạch động (Dynamic Programming)
+
+
+Bài 13: Bài toán chia tiền (Coin Change Problem)
+Mô tả: Cho một số tiền amount và một danh sách các đồng tiền có giá trị khác nhau. Tìm cách trả lại số tiền amount sử dụng ít đồng tiền nhất.
+Input: Số tiền amount và danh sách các giá trị đồng tiền.
+Output: Số lượng đồng tiền tối thiểu để trả đủ số tiền amount.
+
+
+Bài 14: Dãy con có tổng lớn nhất (Maximum Subarray)
+Mô tả: Cho một mảng số nguyên, tìm dãy con liên tiếp có tổng lớn nhất.
+Input: Một mảng số nguyên.
+Output: Tổng lớn nhất của một dãy con liên tiếp.
+
+
+Bài 15: Bài toán leo cầu thang
+Mô tả: Bạn có thể leo lên một cầu thang với n bậc, và mỗi lần bạn có thể bước 1 hoặc 2 bậc. Hãy tính xem có bao nhiêu cách để leo lên đỉnh cầu thang.
+Input: Số bậc thang n.
+Output: Số cách để leo lên đỉnh.
